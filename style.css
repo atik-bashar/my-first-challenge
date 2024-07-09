@@ -8,7 +8,7 @@
 .banner-contain{
     width: 1440px;
     height: 652px;
-    background: url(images/Hero-bg.png);
+    background: url('images/Hero-bg.png');
     background-repeat: no-repeat;
     margin: 0 auto;
     margin-top: 30px;
@@ -55,6 +55,69 @@
     font-weight: 600;
 }
 
+/* ends section style starts here */
+
+.end-section-container{
+    background-image: url('images/handshake.jpg');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    margin: 0 auto;
+}
+.end-section-contain{
+    width: 1140px;
+    height: 313px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.end-section-text h4{
+    width: 292px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    padding-left: 120px;
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.end-section-text p{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    width: 606px;
+    height: 52px;
+}
+
+.button-contain input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.button-contain button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+#sub{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
 /* footer contain styles here */
 
 .footer-contain{

@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .banner-contain img{
@@ -52,4 +53,37 @@
     font-family: Azeret Mono;
     font-size: 17px;
     font-weight: 600;
+}
+
+/* footer contain styles here */
+
+.footer-contain{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-contain h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 120px;
+}
+
+.icons-contain{
+    width: 157.01px;
+    height: 36px;
+    margin: 0px 100px;
+    justify-content: space-evenly;
+}
+
+.icons-contain img{
+    padding: 5px;
 }
